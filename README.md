@@ -14,7 +14,10 @@ And then create a directory for the project and then init and synchronize
 ```
 mkdir test-thrds
 cd test-thrds
-repo init --repo-branch=master -u https://github.com/winksaville/sel4-test-thrds-manifest.git
+repo init -u https://github.com/winksaville/sel4-test-thrds-manifest.git
+cd .repo/repo
+git pull -u origin master
+cd ../../
 repo sync
 ```
 You can ignore the clone.bundle errors, see below
