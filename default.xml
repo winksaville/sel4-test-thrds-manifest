@@ -44,6 +44,9 @@
   <project name="hel4-helloworld.git" path="apps/helloworld">
     <linkfile src="master-configs/*" dest="configs"/>
   </project>
+  <project name="sel4-mpscfifo.git" path="apps/mpscfifo">
+    <linkfile src="master-configs/*" dest="configs"/>
+  </project>
   <project name="sel4-test_thrds.git" path="apps/test_thrds">
     <linkfile src="master-configs/*" dest="configs"/>
   </project>
