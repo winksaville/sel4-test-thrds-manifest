@@ -41,7 +41,7 @@
   <project name="libplatsupport.git" path="libs/libplatsupport"/>
   <project name="libutils.git" path="libs/libutils"/>
   <project name="libsel4thrds.git" path="libs/libsel4thrds"/>
-  <project name="hel4-helloworld.git" path="apps/helloworld">
+  <project name="sel4-helloworld.git" path="apps/helloworld">
     <linkfile src="master-configs/*" dest="configs"/>
   </project>
   <project name="sel4-mpscfifo.git" path="apps/mpscfifo">
