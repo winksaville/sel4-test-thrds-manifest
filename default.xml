@@ -47,7 +47,7 @@
   <project name="sel4-mpscfifo.git" path="apps/mpscfifo">
     <linkfile src="master-configs/*" dest="configs"/>
   </project>
-  <project name="sel4-test_thrds.git" path="apps/test_thrds">
+  <project name="sel4-test-thrds.git" path="apps/test-thrds">
     <linkfile src="master-configs/*" dest="configs"/>
   </project>
 
